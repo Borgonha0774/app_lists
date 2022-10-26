@@ -1,10 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:onclick_dialog/home.dart';
 
 void main(List<String> args) {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: Home();
-  ), 
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    ),
   );
 }
